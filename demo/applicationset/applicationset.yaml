@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: demo-helm-common-chart
+  name: demo-helm-common
   namespace: argocd
 spec:
   generators:
